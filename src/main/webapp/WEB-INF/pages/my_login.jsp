@@ -11,7 +11,7 @@
 
 <div style="color: red">${message}</div>
 
-<form class="login-form" action="j_spring_security_check" method="post">
+<form:form method="post">
     <label for="username">Username: </label>
     <input id="username" name="username" size="20" maxlength="50" type="text" />
 
@@ -19,6 +19,6 @@
     <input id="password" name="password" size="20" maxlength="50" type="password" />
 
     <input type="submit" value="Login" />
-</form>
+</form:form>
 </body>
 </html>
